@@ -1,4 +1,4 @@
-# Automação de execução de query com PostgreSQL e Python. 
+# Automação de execução de query SQL em Python. 
 
 <p> Esse é um repositório criado em Python com um executável em .bat para realizar uma tarefa que pode ser recorrente no seu dia! </p>
 <p> No meu cenário, o que fez esse código ser construído, eu precisei fazer um tratamento de datas e por isso tem quatro timestamp na index, logo, se essa não for uma necessidade sua, basta excluí-la do código.</p>
