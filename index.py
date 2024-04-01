@@ -8,11 +8,11 @@ import os
 
 # Configuração da conexão com o banco de dados PostgreSQL
 connection = psycopg2.connect(
-    user=os.environ.get('DB_USER_RLOG'),
-    password=os.environ.get('DB_PASSWORD_RLOG'),
-    host=os.environ.get('DB_HOST_RLOG'),
-    port=os.environ.get('DB_PORT_RLOG'),
-    dbname=os.environ.get('DB_NAME_RLOG')
+    user=os.environ.get('DB_USER'),
+    password=os.environ.get('DB_PASSWORD'),
+    host=os.environ.get('DB_HOST'),
+    port=os.environ.get('DB_PORT'),
+    dbname=os.environ.get('DB_NAME')
 )
 cursor = connection.cursor()
 
