@@ -38,7 +38,7 @@ try:
     if not results:
         # Configuração das informações do e-mail
         email_de = "xxxxxxx@gmail.com"
-        email_para = "yyyyyyyyyyy@agenciadoradio.com.br"
+        email_para = "yyyyyyyyyyy@.com.br"
         assunto = "Aviso: Consulta sql não retornou resultados!"
 
         # Corpo do e-mail
